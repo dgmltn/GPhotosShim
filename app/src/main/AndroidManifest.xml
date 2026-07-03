@@ -18,6 +18,8 @@
     <application
         android:allowBackup="false"
         android:label="@string/app_name"
+        android:theme="@style/Theme.GPhotosShim"
+        android:icon="@drawable/ic_gallery_link"
         tools:ignore="DataExtractionRules,MissingApplicationIcon">
         <activity
             android:name="com.google.android.apps.photos.LauncherActivity"
@@ -32,8 +34,7 @@
             android:name="com.google.android.apps.photos.MainActivity"
             android:clearTaskOnLaunch="true"
             android:exported="true"
-            android:noHistory="true"
-            android:theme="@android:style/Theme.NoDisplay">
+            android:theme="@style/Theme.GPhotosShim.Translucent">
             <intent-filter>
                 <action android:name="android.provider.action.REVIEW" />
                 <action android:name="android.provider.action.REVIEW_SECURE" />

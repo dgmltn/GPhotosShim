@@ -1,7 +1,9 @@
 <resources>
   <string name="app_name">GPhotosShim</string>
   <string name="welcome_message">Welcome to GPhotosShim</string>
-  <string name="permission_explanation">This app acts like a shim between Google Camera and your choice of photo gallery apps. It requires special permissions to masquerade as a file manager. Please grant All Files Access to continue.</string>
+  <string name="permission_explanation">This app is a shim between Google Camera and your choice of photo gallery apps. It requires permissions to masquerade as a file manager. Please grant All Files Access to continue.</string>
+  <string name="permission_explanation_gphotoshim">GPhotosShim requires permissions to masquerade as a file manager. Please grant All Files Access to continue.</string>
   <string name="grant_permission">Grant Permission</string>
   <string name="permission_granted">Permission Granted</string>
+  <string name="remove_permission">Remove Permission</string>
 </resources>
